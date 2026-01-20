@@ -1,1 +1,21 @@
-spring.application.name=backend
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qsq?useUnicode=true&useSSL=false&serverTimezone=GMT&characterEncoding=UTF-8
+    username: root
+    password: lijkn024
+
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: lijkn024
+      connect-timeout: 5s
+
+  
+
+
