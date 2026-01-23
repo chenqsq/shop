@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/qsq?useUnicode=true&useSSL=false&serverTimezone=GMT&characterEncoding=UTF-8
-    username: root
+    url: jdbc:postgresql://localhost:5432/demo
+    username: postgres
     password: lijkn024
+    driver-class-name: org.postgresql.Driver
 
 
   data:
